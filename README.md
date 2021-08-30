@@ -44,7 +44,7 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 
 ![Balanced_Random_Forest_Classifier fscore](images/Balanced_Random_Forest_Classifier_f.PNG)
 
- -Easy Ensemble AdaBoost Classifier gave us the best results with a balanced accuracy score of 0.9179. This shows that is can only successfully predict credit risk correctly at only 91.79% of the time.
+ - Easy Ensemble AdaBoost Classifier gave us the best results with a balanced accuracy score of 0.9179. This shows that is can only successfully predict credit risk correctly at only 91.79% of the time.
 
 ![Easy Ensemble AdaBoost Classifier](images/Easy_Ensemble_AdaBoost_Classifier.PNG)
 
@@ -53,4 +53,4 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 ![Easy Ensemble AdaBoost Classifier fscore](images/Easy_Ensemble_AdaBoost_Classifier_f.PNG)
 
 ## Sumarry 
-Our results have shown that 
+Our results have shown that Easy Ensemble AdaBoost Classifier have given us the best results and is the machine learning model that is best at predicting credit risk. However the F-score for high risk prediction is still very disappointing at 0.16. This causes us to not recommend using any of the machine learning algorithims presented in this is study to predict credit risk.
