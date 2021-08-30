@@ -12,10 +12,18 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 
 ![Cluster Centroids Undersampling fscore](images/Cluster_Centroids_Undersampling_f.PNG)
  
- - Naive Random Oversampling showed the second worst results with a balanced accuracy score of 0.6474. This shows that is can only successfully predict credit risk correctly at only 64.74% of the time. This is slightly better than Cluster Centroids Undersampling as it can predict almost 2/3 of the credit risk.
+ - Naive Random Oversampling showed the second worst results with a balanced accuracy score of 0.6474. This shows that is can only successfully predict credit risk correctly at only 64.74% of the time. This is better than Cluster Centroids Undersampling as it can predict almost 2/3 of the credit risk yet is still not good enough to be used by creditors.
 
 ![Naive Random Oversampling](images/Naive_Random_Oversampling.PNG)
 
 Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.75 and the F-score to be just 0.02.
 
 ![Naive Random Oversampling fscore](images/Naive_Random_Oversampling_f.PNG)
+
+- SMOTE Oversampling gave us the third worst results with a balanced accuracy score of 0.6622. This shows that is can only successfully predict credit risk correctly at only 66.22% of the time. This is slightly better than Naive Random Oversampling as it can predict 2/3 of the credit risk yet is still not good enough to be used by creditors.
+
+![SMOTE Oversampling](images/SMOTE.PNG)
+
+Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.81 and the F-score to be just 0.02. Only simillar with Naive Random Oversampling for the average/total and F-score.
+
+![SMOTE Oversampling fscore](images/SMOTE_f.PNG)
