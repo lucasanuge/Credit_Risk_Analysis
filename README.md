@@ -27,3 +27,8 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.81 and the F-score to be just 0.02. Only simillar with Naive Random Oversampling for the average/total and F-score.
 
 ![SMOTE Oversampling fscore](images/SMOTE_f.PNG)
+
+- Combination Sampling gave us the third best results with a balanced accuracy score of 0.6775. This shows that is can only successfully predict credit risk correctly at only 67.75% of the time. This is slightly better than Naive Random Oversampling and SMOTE Oversampling as it can predict 2/3 of the credit risk yet is still not good enough to be used by creditors.
+
+![Combination_Sampling](images/Combination_Sampling.PNG)
+
