@@ -35,3 +35,11 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.72 and the F-score to be just 0.02. Simillar with Naive Random Oversampling.
 
 ![Combination_Sampling fscore](images/Combination_Sampling_f.PNG)
+
+- Balanced Random Forest Classifier gave us the second best results with a balanced accuracy score of 0.7726. This shows that is can only successfully predict credit risk correctly at only 77.26% of the time. This is 10% better than the Combination Sampling with the capability of predicting 3/4 of the credit risks. However, it is still not good enough to be used by creditors to predict credit risk.
+
+![Balanced_Random_Forest_Classifier](images/Balanced_Random_Forest_Classifier.PNG)
+
+Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.92 and the F-score to be just 0.06. The average is much higher than pervious machine learning models yet the F-score for high risk prediction is still very disappointing.
+
+![Balanced_Random_Forest_Classifier fscore](images/Balanced_Random_Forest_Classifier_f.PNG)
