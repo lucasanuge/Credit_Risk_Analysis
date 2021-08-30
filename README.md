@@ -9,3 +9,6 @@ The purpose of this project is to apply machine learning to solve credit card ri
 
 Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.56 and the F-score to be just 0.01. The results from the ICR are also too low to predict credit risk.
 ![Cluster Centroids Undersampling](images/Cluster_Centroids_Undersampling_f.PNG)
+ 
+ - Naive Random Oversampling showed the second worst results with a balanced accuracy score of 0.6474. This shows that is can only successfully predict credit risk correctly at only 64.74% of the time. This is slightly better than Cluster Centroids Undersampling yet is still not good enough.
+![Naive Random Oversampling](images/Naive_Random_Oversampling.PNG)
