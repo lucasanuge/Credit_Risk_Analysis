@@ -43,3 +43,14 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.92 and the F-score to be just 0.06. The average is much higher than pervious machine learning models yet the F-score for high risk prediction is still very disappointing.
 
 ![Balanced_Random_Forest_Classifier fscore](images/Balanced_Random_Forest_Classifier_f.PNG)
+
+ -Easy Ensemble AdaBoost Classifier gave us the best results with a balanced accuracy score of 0.9179. This shows that is can only successfully predict credit risk correctly at only 91.79% of the time.
+
+![Easy Ensemble AdaBoost Classifier](images/Easy_Ensemble_AdaBoost_Classifier.PNG)
+
+Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.96 and the F-score to be just 0.16. The average is much higher than pervious machine learning models yet the F-score for high risk prediction is still very disappointing.
+
+![Easy Ensemble AdaBoost Classifier fscore](images/Easy_Ensemble_AdaBoost_Classifier_f.PNG)
+
+## Sumarry 
+Our results have shown that 
