@@ -24,7 +24,7 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 
 ![SMOTE Oversampling](images/SMOTE.PNG)
 
-Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.81 and the F-score to be just 0.02. Only simillar with Naive Random Oversampling for the average/total and F-score.
+Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.81 and the F-score to be just 0.02.
 
 ![SMOTE Oversampling fscore](images/SMOTE_f.PNG)
 
@@ -32,3 +32,4 @@ Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see 
 
 ![Combination_Sampling](images/Combination_Sampling.PNG)
 
+Looking at the Imbalanced Classification Report (ICR), on the f1 column, we see that the average/total is 0.72 and the F-score to be just 0.02. Simillar with Naive Random Oversampling.
